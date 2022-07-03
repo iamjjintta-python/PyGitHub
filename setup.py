@@ -3,9 +3,6 @@ from setuptools import setup
 from setuptools import find_packages
 
 
-install_requires = 
-
-
 with open('README.md') as readme:
     long_description = readme.read()
 
