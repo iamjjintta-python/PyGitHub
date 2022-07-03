@@ -3,7 +3,7 @@ Simple GitHub API with Python
 
 ## Instructions
 ```python
-from git.github import GitHub
+from iamjjinta.github import GitHub
 
 
 username = 'Your GitHub Username'
