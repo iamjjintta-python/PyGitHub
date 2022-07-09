@@ -1,7 +1,12 @@
 # PyGitHub
 Simple GitHub API with Python
 
-## Instructions
+## Install
+```sh
+$ pip install iamjjintta-pygithub
+```
+
+## Example
 ```python
 from iamjjinta.github import GitHub
 
@@ -18,7 +23,7 @@ print(login.status_code)
 owner = 'iamjjintta-python'
 repo = 'PyGitHub'
 branch = 'main'
-path = '/git/github.py'
+path = '/iamjjintta/github.py'
 
 source_code = github.get_content(owner, repo, branch, path)
 print(source_code)
